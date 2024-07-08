@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://cnbauu1qjlq6l"]
+
+[ext_resource type="Texture2D" uid="uid://dcv5tkr6ii1m6" path="res://addons/Tiny Swords/Factions/Knights/Troops/Warrior/Blue/Warrior_Blue.png" id="1_pbjkw"]
+[ext_resource type="Texture2D" uid="uid://bqlxvtcdfe4ak" path="res://addons/Tiny Swords/Factions/Knights/Troops/Pawn/Purple/Pawn_Purple.png" id="2_pl1ud"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="WarriorBlue" type="Sprite2D" parent="."]
+position = Vector2(629, 787)
+texture = ExtResource("1_pbjkw")
+
+[node name="PawnPurple" type="Sprite2D" parent="."]
+position = Vector2(1842, 570)
+texture = ExtResource("2_pl1ud")
